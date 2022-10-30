@@ -3,7 +3,7 @@ import { Grid, Paper } from "@mui/material";
 import imageStyle from "../styles/imageStyle";
 import paperStyle from "../styles/paperStyle";
 import mainGridStyle from "../styles/mainGrid";
-import { platform, handles } from "./styles/socialsStyle";
+import { platform, handles } from "../styles/socialsStyle";
 
 function Profile() {
   return (
@@ -16,13 +16,14 @@ function Profile() {
             alt="me"
             style={imageStyle}
           />
-          <h3 id="twitter">
-            <span style={platform}>Twitter:</span>
+          <p id="twitter">
+            <span style={platform}>Twitter: </span>
             <span style={handles}>gitahievans</span>
-          </h3>
-          <h3 id="slack">
-            <span style={platform}>Slack:</span> <span style={handles}></span>
-          </h3>
+          </p>
+          <p id="slack">
+            <span style={platform}>Slack: </span>
+            <span style={handles}>gitahievans</span>
+          </p>
         </Grid>
       </Paper>
     </Grid>

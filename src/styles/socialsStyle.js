@@ -3,7 +3,7 @@ const platform = {
 };
 
 const handles = {
-  fontSize: "15px",
+  fontSize: "20px",
 };
 
 export { platform, handles };

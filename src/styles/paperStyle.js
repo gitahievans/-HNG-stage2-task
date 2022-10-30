@@ -1,8 +1,8 @@
 const paperStyle = {
   padding: "30px 20px",
-  width: 300,
+  width: 200,
   margin: "80px auto",
-  height: "400px",
+  height: "170px",
   //   display: "flex",
   //   flexDirection: "column",
   justifyContent: "center",

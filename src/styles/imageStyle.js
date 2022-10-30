@@ -1,5 +1,5 @@
 const imageStyle = {
-  height: "200px",
+  height: "80px",
   borderRadius: "40%",
 };
 

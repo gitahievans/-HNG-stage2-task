@@ -1,6 +1,6 @@
 const mainGridStyle = {
   backgroundColor: "#6c010e",
-  height: "80vh",
+  height: "50vh",
   display: "flex",
   paddingTop: "5px",
 };
