@@ -19,13 +19,15 @@ body {
 /* Profile image */
 .pfl-container {
   border-radius: 30px;
-  background-color: #3469AD;
+  /* background-color: #3469AD; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(52, 105, 173, 0.8390947443430498) 35%, rgba(0, 212, 255, 1) 100%);
   padding: 2px;
 
 }
 
 .pfl_details {
-  color: white;
+  color: black;
 }
 
 #profile_img {
@@ -34,11 +36,21 @@ body {
   border-radius: 35px;
 }
 
+.platorm {
+  font-size: 20px;
+}
+
+.handles {
+  font-size: 20px;
+}
+
 /* Links */
 .links-container {
   height: 62vh;
   border-radius: 40px;
-  background-color: #2C5994;
+  /* background-color: #2C5994; */
+  /* background: rgb(2, 0, 36); */
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(52, 105, 173, 0.8390947443430498) 35%, rgba(0, 212, 255, 1) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,9 +65,14 @@ body {
 .python,
 .bk-design {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   background-color: #96C1FA;
   width: 500px;
   border-radius: 20px;
 
+}
+
+.info {
+  align-self: center;
 }

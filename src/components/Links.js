@@ -12,7 +12,7 @@ function Links() {
         >
           Zuri Training
         </Button>
-        <p>Welcome to Zuri Training</p>
+        <p className="info">Welcome to Zuri Training</p>
       </div>
       <div className="books">
         {" "}
@@ -23,7 +23,7 @@ function Links() {
         >
           Zuri bOOKS
         </Button>
-        <p>Learn all about design and coding</p>
+        <p className="info">Learn all about design and coding</p>
       </div>
       <div className="python">
         <Button
@@ -33,6 +33,10 @@ function Links() {
         >
           Python for beginners
         </Button>
+        <p className="info">
+          I am an experienced programmer with over 10 years of software
+          development. Learn python fundamentals from one of the best
+        </p>
       </div>{" "}
       <div className="background">
         <Button
@@ -40,8 +44,12 @@ function Links() {
           variant="contained"
           color="primary"
         >
-          Background
+          Background checks
         </Button>
+        <p className="info">
+          I do quality background checks on coders and help you select the best
+          of the best
+        </p>
       </div>
       <div className="bk-design">
         <Button
@@ -49,8 +57,11 @@ function Links() {
           variant="contained"
           color="primary"
         >
-          Books designs
+          Design books
         </Button>
+        <p className="info">
+          The design book is free. Get it today and become a design pro
+        </p>
       </div>
     </div>
   );
