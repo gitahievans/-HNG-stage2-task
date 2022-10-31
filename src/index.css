@@ -16,6 +16,8 @@ body {
   width: 50%;
 }
 
+
+
 /* Profile image */
 .pfl-container {
   border-radius: 30px;
@@ -67,11 +69,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #96C1FA;
+  background-color: #00a9cc;
   width: 500px;
   border-radius: 20px;
 
 }
+
+
 
 .info {
   align-self: center;
