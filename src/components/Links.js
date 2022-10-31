@@ -61,7 +61,7 @@ function Links() {
           Design books
         </Button>
         <p className="info">
-          The design book is free. Get it today and become a design pro
+          Get a free design book today and become a pro designer
         </p>
       </div>
     </div>
