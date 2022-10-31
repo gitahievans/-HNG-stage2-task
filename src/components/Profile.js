@@ -10,11 +10,11 @@ function Profile() {
           alt="me"
         />
         <p id="twitter">
-          <span className="platorm">Twitter: </span>
+          <span className="platorm">TWITTER: </span>
           <span className="handles">gitahievans</span>
         </p>
         <p id="slack">
-          <span className="platorm">Slack: </span>
+          <span className="platorm">SLACK: </span>
           <span className="handles">gitahievans</span>
         </p>
       </div>
