@@ -1,11 +1,10 @@
 import React from "react";
-import { ztatg, ztimg, linksCont } from "../styles/linksStyle";
-import { Button, Grid, Link } from "@mui/material";
+import { Button } from "@mui/material";
 
 function Links() {
   return (
-    <Grid style={linksCont}>
-      <Grid>
+    <div className="links-container">
+      <div className="training">
         <Button
           href="https://training.zuri.team/"
           variant="contained"
@@ -14,8 +13,8 @@ function Links() {
           Zuri Training
         </Button>
         <p>Welcome to Zuri Training</p>
-      </Grid>
-      <Grid>
+      </div>
+      <div className="books">
         {" "}
         <Button
           href="http://books.zuri.team"
@@ -25,8 +24,8 @@ function Links() {
           Zuri bOOKS
         </Button>
         <p>Learn all about design and coding</p>
-      </Grid>
-      <Grid>
+      </div>
+      <div className="python">
         <Button
           href="https://books.zuri.team/python-for-beginners?ref_id=<gitahievans> "
           variant="contained"
@@ -34,8 +33,8 @@ function Links() {
         >
           Python for beginners
         </Button>
-      </Grid>{" "}
-      <Grid>
+      </div>{" "}
+      <div className="background">
         <Button
           href="https://background.zuri.team"
           variant="contained"
@@ -43,8 +42,8 @@ function Links() {
         >
           Background
         </Button>
-      </Grid>
-      <Grid>
+      </div>
+      <div className="bk-design">
         <Button
           href="https://books.zuri.team/design-rules"
           variant="contained"
@@ -52,8 +51,8 @@ function Links() {
         >
           Books designs
         </Button>
-      </Grid>
-    </Grid>
+      </div>
+    </div>
   );
 }
 

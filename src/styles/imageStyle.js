@@ -1,6 +1,6 @@
-const imageStyle = {
-  height: "80px",
-  borderRadius: "40%",
-};
+// const imageStyle = {
+//   height: "80px",
+//   borderRadius: "40%",
+// };
 
-export default imageStyle;
+// export default imageStyle;

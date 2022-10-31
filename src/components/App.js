@@ -3,10 +3,12 @@ import Profile from "./Profile";
 
 function App() {
   return (
-    <>
-      <Profile />
-      <Links />
-    </>
+    <div className="app">
+      <div className="container">
+        <Profile />
+        <Links />
+      </div>
+    </div>
   );
 }
 
