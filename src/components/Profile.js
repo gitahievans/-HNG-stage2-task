@@ -9,13 +9,17 @@ function Profile() {
           src="https://images.pexels.com/photos/1377457/pexels-photo-1377457.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt="me"
         />
-        <p id="twitter">
+        <p>
           <span className="platorm">TWITTER: </span>
-          <span className="handles">gitahievans</span>
+          <span id="twitter" className="handles">
+            gitahievans
+          </span>
         </p>
-        <p id="slack">
+        <p>
           <span className="platorm">SLACK: </span>
-          <span className="handles">gitahievans</span>
+          <span id="slack" className="handles">
+            gitahievans
+          </span>
         </p>
       </div>
     </div>

@@ -6,6 +6,7 @@ function Links() {
     <div className="links-container">
       <div className="training">
         <Button
+          id="btn__zuri"
           href="https://training.zuri.team/"
           variant="contained"
           color="primary"
@@ -17,6 +18,7 @@ function Links() {
       <div className="books">
         {" "}
         <Button
+          id="books"
           href="http://books.zuri.team"
           variant="contained"
           color="primary"
@@ -27,6 +29,7 @@ function Links() {
       </div>
       <div className="python">
         <Button
+          id="book__python"
           href="https://books.zuri.team/python-for-beginners?ref_id=<gitahievans> "
           variant="contained"
           color="primary"
@@ -41,6 +44,7 @@ function Links() {
       </div>{" "}
       <div className="background">
         <Button
+          id="pitch"
           href="https://background.zuri.team"
           variant="contained"
           color="primary"
@@ -54,6 +58,7 @@ function Links() {
       </div>
       <div className="bk-design">
         <Button
+          id="book__design"
           href="https://books.zuri.team/design-rules"
           variant="contained"
           color="primary"
