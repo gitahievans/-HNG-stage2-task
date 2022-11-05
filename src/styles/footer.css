@@ -1,12 +1,13 @@
-.foot {
+.footer {
     height: 100px;
+    width: 1700px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
 }
 
 .ingressive,
 .zuri-int {
     height: 90px;
-    width: 400px;
+    width: 200px;
 }

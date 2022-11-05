@@ -7,13 +7,15 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <>
-      <div>
-        <Routes>
-          <Route path="/" element={<Layout />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+      <div className="app">
+        <div className="container">
+          <Routes>
+            <Route path="/" element={<Layout />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <ToastContainer closeOnClick />
       </div>
-      <ToastContainer closeOnClick />
     </>
   );
 }
