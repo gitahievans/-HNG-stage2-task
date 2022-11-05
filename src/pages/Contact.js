@@ -27,7 +27,8 @@ function Contact() {
                   id="first_name"
                   className="inputs"
                   type="text"
-                  placeholder="Enter your last name"
+                  placeholder="Enter your first name"
+                  required
                 />
               </div>
               <div className="last">
@@ -47,6 +48,7 @@ function Contact() {
                 className="inputs"
                 type="text"
                 placeholder="yourname@email.com"
+                required
               />
             </div>
 
@@ -60,7 +62,7 @@ function Contact() {
               />
             </div>
             <div className="check-div">
-              <input className="check" type="checkbox" />
+              <input className="check" type="checkbox" required />
               <label>
                 You agree to provide your data to Evans who may contact you
               </label>
