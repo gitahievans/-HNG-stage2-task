@@ -1,24 +1,24 @@
 import { Button } from "@mui/material";
 import React from "react";
 import "../styles/contact.css";
-import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
+// import { useNavigate } from "react-router-dom";
+// import { toast } from "react-toastify";
 
 function Contact() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleSubmit = () => {};
-  const handleClick = () => {
-    navigate("/");
-    toast.success("Thank you for reaching out!");
-  };
+  // const handleSubmit = () => {};
+  // const handleClick = () => {
+  //   navigate("/");
+  //   toast.success("Thank you for reaching out!");
+  // };
 
   return (
     <div className="contact-container">
       <div className="contact-inputs">
         <h1>Contact Me</h1>
         <h4>Hi there, contact me to ask about anything you have in mind</h4>
-        <form onSubmit={handleSubmit}>
+        <form>
           <div className="names">
             <div className="first">
               <label>First Name</label>
@@ -66,7 +66,6 @@ function Contact() {
           </div>
           <div className="btn">
             <Button
-              onClick={handleClick}
               id="btn__submit"
               variant="contained"
               type="submit"
