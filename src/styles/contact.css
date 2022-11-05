@@ -37,7 +37,7 @@
 
 .inputs {
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid;
 }
 
@@ -49,7 +49,7 @@
 
 .message-area {
     height: 80px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid;
 }
 

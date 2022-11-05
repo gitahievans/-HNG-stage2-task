@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import Contact from "../pages/Contact";
 
 function Links() {
   return (
