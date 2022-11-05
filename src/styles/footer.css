@@ -1,0 +1,12 @@
+.foot {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingressive,
+.zuri-int {
+    height: 90px;
+    width: 400px;
+}
