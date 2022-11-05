@@ -1,3 +1,25 @@
-.container {
+.contact-container {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-inputs {
+    background-color: aliceblue;
+}
+
+.names {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.last {
+    margin-left: 40px;
+}
+
+.email-div {
+    display: grid;
+    margin-top: 20px;
 }
