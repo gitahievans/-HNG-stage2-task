@@ -1,9 +1,17 @@
 import { Button } from "@mui/material";
 import React from "react";
 import "../styles/contact.css";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 function Contact() {
+  const navigate = useNavigate();
+
   const handleSubmit = () => {};
+  const handleClick = () => {
+    navigate("/");
+    toast.success("Thank you for reaching out!");
+  };
 
   return (
     <div className="contact-container">
@@ -58,6 +66,7 @@ function Contact() {
           </div>
           <div className="btn">
             <Button
+              onClick={handleClick}
               id="btn__submit"
               variant="contained"
               type="submit"
