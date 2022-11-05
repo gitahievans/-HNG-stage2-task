@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function Links() {
   return (
@@ -70,14 +71,9 @@ function Links() {
         </p>
       </div>
       <div>
-        <Button
-          id="contact"
-          href="/contact"
-          variant="contained"
-          color="primary"
-        >
+        <Link id="contact" to="/contact">
           Contact Me
-        </Button>
+        </Link>
       </div>
     </div>
   );
