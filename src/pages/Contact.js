@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import React from "react";
 import "../styles/contact.css";
 
@@ -13,6 +14,7 @@ function Contact() {
             <div className="first">
               <label>First Name</label>
               <input
+                id="first_name"
                 className="inputs"
                 type="text"
                 placeholder="Enter your last name"
@@ -21,6 +23,7 @@ function Contact() {
             <div className="last">
               <label>Last Name</label>
               <input
+                id="last_name"
                 className="inputs"
                 type="text"
                 placeholder="Enter your last name"
@@ -30,6 +33,7 @@ function Contact() {
           <div className="email-div">
             <label>Email</label>
             <input
+              id="email"
               className="inputs"
               type="text"
               placeholder="yourname@email.com"
@@ -39,7 +43,8 @@ function Contact() {
           <div className="message-div">
             <label>Message</label>
             <input
-              className="message"
+              id="message"
+              className="message-area"
               type="text"
               placeholder="Send a message and I'll reply as soon as possible"
             />
@@ -50,8 +55,16 @@ function Contact() {
               You agree to provide your data to Evans who may contact you
             </label>
           </div>
-
-          <button type="submit">Send Message</button>
+          <div className="btn">
+            <Button
+              id="btn__submit"
+              variant="contained"
+              type="submit"
+              style={{ width: "100%" }}
+            >
+              Send Message
+            </Button>
+          </div>
         </form>
       </div>
     </div>

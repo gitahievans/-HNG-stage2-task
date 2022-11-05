@@ -45,7 +45,16 @@
     margin-top: 20px;
 }
 
-.message {
+.message-area {
     height: 50px;
     border-radius: 5px;
+}
+
+.check-div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 20px;
 }
