@@ -8,7 +8,8 @@ function Contact() {
   return (
     <div className="contact-container">
       <div className="contact-inputs">
-        <h1>Hi there, contact me to ask about anything you have in mind</h1>
+        <h1>Contact Me</h1>
+        <h4>Hi there, contact me to ask about anything you have in mind</h4>
         <form onSubmit={handleSubmit}>
           <div className="names">
             <div className="first">

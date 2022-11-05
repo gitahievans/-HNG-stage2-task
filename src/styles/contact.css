@@ -6,7 +6,8 @@
 }
 
 .contact-inputs {
-    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .names {
@@ -35,8 +36,9 @@
 }
 
 .inputs {
-    height: 30px;
+    height: 40px;
     border-radius: 5px;
+    border: 1px solid;
 }
 
 .message-div {
@@ -46,8 +48,9 @@
 }
 
 .message-area {
-    height: 50px;
+    height: 80px;
     border-radius: 5px;
+    border: 1px solid;
 }
 
 .check-div {
