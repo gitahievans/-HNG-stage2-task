@@ -71,9 +71,9 @@ function Links() {
         </p>
       </div>
       <div>
-        <Link id="contact" to="/contact">
+        <Button id="contact" href="/contact" variant="contained">
           Contact Me
-        </Link>
+        </Button>
       </div>
     </div>
   );
