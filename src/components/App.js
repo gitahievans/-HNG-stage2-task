@@ -9,7 +9,7 @@ function App() {
         <Profile />
         <Links />
         <Routes>
-          <Route to="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </div>

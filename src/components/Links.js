@@ -69,6 +69,16 @@ function Links() {
           Get a free design book today and become a pro designer
         </p>
       </div>
+      <div>
+        <Button
+          id="contact"
+          href="/contact"
+          variant="contained"
+          color="primary"
+        >
+          Contact Me
+        </Button>
+      </div>
     </div>
   );
 }
